@@ -44,5 +44,5 @@ jobs:
 
         branch: cargo-update-${{steps.date.outputs.date}}
         # The pull request base branch.
-        base: master
+        base: main
         # The branch suffix type.
